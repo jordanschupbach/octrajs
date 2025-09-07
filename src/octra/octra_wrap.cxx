@@ -1012,10 +1012,10 @@ SWIG_NAPI_GetModule(Napi::Env env);
 Napi::Object Init(Napi::Env env, Napi::Object exports);
 
 
-#include "../../octrajs/src/octra/cxx/dynarray.hpp"
+#include "octra/cxx/dynarray.hpp"
 
 
-#include "../../octrajs/src/octra/cxx/circle.hpp"
+#include "octra/cxx/circle.hpp"
 
 
 SWIGINTERN
